@@ -268,7 +268,7 @@ public class GaussJordanElimination {
         StdOut.println("----------------------------------------------------");
         GaussJordanElimination gaussian = new GaussJordanElimination(A, b);
         if (gaussian.isFeasible()) {
-            StdOut.println("Solution to Ax = b");
+            StdOut.println("Question4 to Ax = b");
             double[] x = gaussian.primal();
             for (int i = 0; i < x.length; i++) {
                 StdOut.printf("%10.6f\n", x[i]);
